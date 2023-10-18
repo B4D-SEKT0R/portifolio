@@ -1,0 +1,26 @@
+.header_rotulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 8px;
+    flex-shrink: 0;
+    margin: 0 5.13em 0 5.13em;
+    background-color: var(--cinza-escuro);
+    width: 90%;
+    height: 70px;
+}
+
+.header_conjunto{
+    display: flex;
+    color: var(--cinza);
+    padding: 0 3em ;
+}
+
+.header_itens{
+    padding: 0 1em;
+}
+
+.header_ancora{
+    text-decoration: none;
+    color: var(--cinza);
+}

@@ -1,0 +1,19 @@
+@import url("style/header.css");
+@import url("style/info.css");
+
+:root {
+    --cor-de-fundo: #080808;
+    --cinza: #9C9C9C;
+    --cinza-escuro: #1B1B1B;
+    --fonte-principal: 'IBM Plex Mono', monospace;
+    --fonte-secuntaria:'Raleway';
+    --branco: #ffffff;
+
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 14px;
+    font-weight: 400;   
+}
