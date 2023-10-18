@@ -24,3 +24,14 @@
     text-decoration: none;
     color: var(--cinza);
 }
+
+.header_icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon_button {
+    padding: 0 1em;
+    margin-left: 2em;
+}

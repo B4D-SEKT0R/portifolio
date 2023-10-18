@@ -8,6 +8,10 @@
     margin: 12.5em 35em 15.75em 11.25em;
 }
 
+.header_rotulo {
+    margin-bottom: 0;
+}
+
 .info_titulo{
     font-family: var(--fonte-secuntaria);
     font-weight: 800;
