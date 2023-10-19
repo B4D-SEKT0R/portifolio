@@ -1,3 +1,8 @@
+.info_section{
+    display: flex;
+    flex-direction: row;
+}
+
 .info_conjunto{
     display: flex;
     flex-direction: column;
@@ -5,7 +10,7 @@
     justify-content: center;
     gap: 30px;
     width: 538px;
-    margin: 12.5em 35em 15.75em 11.25em;
+    margin: 10em 8em 5em 11.25em;
 }
 
 .header_rotulo {
@@ -26,9 +31,6 @@
     font-size: 26px;
 }
 
-.info_imagem_parag{
-    background: var(--cinza-escuro);
-}
 
 .info_descricao{
     color: var(--cinza);
@@ -36,7 +38,7 @@
 
 .info_botao{
     display: flex;
-    padding: 21px 64px;
+    padding: 10px 2em;
     align-items: center;
     gap: 10px;
     border-radius: 4px;
@@ -53,4 +55,12 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+}
+
+.info_imagem_parag {
+    width: 400px;
+    height: 500px;
+    flex-shrink: 0;
+    border-radius: 100%;
+    margin: 2em 0 0 0 ;
 }

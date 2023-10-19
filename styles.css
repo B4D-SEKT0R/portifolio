@@ -1,5 +1,6 @@
 @import url("style/header.css");
 @import url("style/info.css");
+@import url("style/work.css");
 
 :root {
     --cor-de-fundo: #080808;
@@ -16,4 +17,5 @@ body {
     font-family: var(--fonte-principal);
     font-size: 14px;
     font-weight: 400;   
+    flex-shrink: 0;
 }
