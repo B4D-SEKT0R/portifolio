@@ -1,7 +1,12 @@
 .info_section{
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 8em 8em 5em 11.25em;
 }
+
+
 
 .info_conjunto{
     display: flex;
@@ -9,26 +14,23 @@
     align-items: flex-start;
     justify-content: center;
     gap: 30px;
-    width: 538px;
-    margin: 10em 8em 5em 11.25em;
+    width: 600px;
+
 }
 
-.header_rotulo {
-    margin-bottom: 0;
-}
 
 .info_titulo{
     font-family: var(--fonte-secuntaria);
     font-weight: 800;
     color: var(--branco);
-    font-size: 44px;
+    font-size: 55px;
 }
 
 .info_subtitulo{
     font-family: var(--fonte-secuntaria);
     font-weight: 800;
     color: var(--branco);
-    font-size: 26px;
+    font-size: 36px;
 }
 
 
@@ -58,9 +60,9 @@
 }
 
 .info_imagem_parag {
-    width: 400px;
-    height: 500px;
+    width: 500px;
+    height: 650px;
     flex-shrink: 0;
-    border-radius: 100%;
-    margin: 2em 0 0 0 ;
+    border-radius: 90%;
+    padding: 0 2em;
 }
